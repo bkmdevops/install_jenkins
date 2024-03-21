@@ -11,4 +11,4 @@ read -s -n 1
 vi /usr/lib/systemd/system/jenkins.service
 systemctl start jenkins
 wget https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.12.15/jenkins-plugin-manager-2.12.15.jar
-wget http://localhost:8080/jnlpJars/jenkins-cli.jar
+wget http://localhost:$3/jnlpJars/jenkins-cli.jar
